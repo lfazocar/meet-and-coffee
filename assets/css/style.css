@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation Bar */
+
+nav {
+    background-color: #000f08;
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+}
+
+nav img {
+    filter: invert(100%);
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 0;
+    padding-left: 6%;
+}
+
+nav ul li {
+    padding: 1.5rem 4% 1.5rem 0;
+    font-size: 25px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    list-style: none;
+}
+
+/* Header */
+
+header {
+    background-image: url(/assets/img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #000000;
+    text-align: right;
+    padding: 2rem 10% 5rem 0;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+header h2 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+/* Sección: Ubicación */
+
+#ubicacion {
+    text-align: center;
+    margin: 5rem 0;
+    padding: 0 25%;
+}
+
+#ubicacion h2 {
+    padding-top: 2rem;
+    font-size: 45px;
+}
+
+#ubicacion p {
+    font-size: 25px;
+}
+
+/* Sección: Próxima charla */
+
+#proxima-charla {
+    background-color: #a4452c;
+    color: #ffffff;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+#proxima-charla img {
+    width: 20%;
+    max-width: max-content;
+    vertical-align: middle;
+}
+
+#proxima-charla .side-text {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 2%;
+    width: 40%;
+}
+
+#proxima-charla .side-text h3 {
+    font-size: 45px;
+}
+
+#proxima-charla .side-text h4 {
+    font-size: 40px;
+}
+
+#proxima-charla .side-text h6 {
+    font-size: 33px;
+    font-weight: lighter;
+}
+
+#proxima-charla .side-text span {
+    font-size: 20px;
+}
+
+#proxima-charla .side-text p {
+    font-size: 25px;
+}
+
+#proxima-charla .side-text > * {
+    margin: 1rem 0;
+}
+
+/* Sección: Eventos anteriores */
+
+#eventos-anteriores {
+    text-align: center;
+}
+
+#eventos-anteriores h2 {
+    font-size: 45px;
+    padding: 5rem 0;
+}
+
+#eventos-anteriores article {
+    display: inline-block;
+    padding: 0 5rem;
+}
+
+#eventos-anteriores article h3 {
+    font-size: 35px;
+    padding: 2rem 0 5rem;
+}
+
+#eventos-anteriores article a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#eventos-anteriores article a:hover {
+    font-weight: bolder;
+}
+
+/* Footer */
+
+footer {
+    background-color: #000f08;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer i {
+    padding-top: 2rem;
+}
+
+footer p {
+    padding: 1rem;
+}
+
+/* Artículo */
+
+article {
+    text-align: center;
+    padding: 6rem 20%;
+}
+
+article h1 {
+    text-align: left;
+    font-size: 45px;
+    font-weight: bolder;
+    padding-bottom: 4rem;
+}
+
+article img {
+    width: 100%;
+    padding-bottom: 5rem;
+}
+
+article p {
+    text-align: justify;
+    font-size: 25px;
+    padding-bottom: 2rem;
+}
+
+article h2 {
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
